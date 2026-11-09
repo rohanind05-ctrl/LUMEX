@@ -1,0 +1,103 @@
+[
+    {
+        "id": "book-1",
+        "doi": "10.1007/978-3-031-67890-2",
+        "title": "Quantum Computing: A Modern Approach",
+        "authors": [
+            { "firstName": "Alan", "lastName": "Turing" },
+            { "firstName": "Richard", "lastName": "Feynman" }
+        ],
+        "isbn": "978-3-16-148410-0",
+        "publishYear": 2025,
+        "publisher": "Lumex Press",
+        "coverImageUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=400",
+        "type": "MONOGRAPH",
+        "discipline": "Physics",
+        "price": "$129.99",
+        "description": "An in-depth exploration of quantum algorithms, error correction, and physical implementations."
+    },
+    {
+        "id": "book-2",
+        "doi": "10.1007/978-3-031-12345-1",
+        "title": "Advances in Neural Information Processing",
+        "authors": [
+            { "firstName": "Yann", "lastName": "LeCun" },
+            { "firstName": "Geoffrey", "lastName": "Hinton" }
+        ],
+        "isbn": "978-1-23-456789-7",
+        "publishYear": 2026,
+        "publisher": "Lumex Press",
+        "coverImageUrl": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=400",
+        "type": "CONFERENCE PROCEEDINGS",
+        "discipline": "Computer Science",
+        "price": "$149.99",
+        "description": "The latest breakthroughs in deep learning architectures and artificial intelligence research."
+    },
+    {
+        "id": "book-3",
+        "doi": "10.1234/ccgp.2024.3",
+        "title": "Climate Change and Global Policy",
+        "authors": [
+            { "firstName": "Jane", "lastName": "Goodall" },
+            { "firstName": "Greta", "lastName": "Thunberg" }
+        ],
+        "isbn": "978-0-12-345678-9",
+        "publishYear": 2024,
+        "publisher": "Global Earth Press",
+        "coverImageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=400",
+        "type": "TEXTBOOK",
+        "discipline": "Environmental Science",
+        "price": "$89.99",
+        "description": "A comprehensive textbook on the intersection of climate science and international policy frameworks."
+    },
+    {
+        "id": "book-4",
+        "doi": "10.1234/mbc.2025.4",
+        "title": "Molecular Biology of the Cell",
+        "authors": [
+            { "firstName": "Rosalind", "lastName": "Franklin" },
+            { "firstName": "James", "lastName": "Watson" }
+        ],
+        "isbn": "978-0-98-765432-1",
+        "publishYear": 2025,
+        "publisher": "Life Sciences Publishing",
+        "coverImageUrl": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+        "type": "REFERENCE WORK",
+        "discipline": "Biology",
+        "price": "$199.99",
+        "description": "The definitive reference work on cellular mechanisms, molecular pathways, and genetics."
+    },
+    {
+        "id": "book-5",
+        "doi": "10.1234/pos.2023.5",
+        "title": "The Philosophy of Science",
+        "authors": [
+            { "firstName": "Karl", "lastName": "Popper" },
+            { "firstName": "Thomas", "lastName": "Kuhn" }
+        ],
+        "isbn": "978-1-11-222333-4",
+        "publishYear": 2023,
+        "publisher": "Academic Press",
+        "coverImageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80&w=400",
+        "type": "MONOGRAPH",
+        "discipline": "Philosophy",
+        "price": "$79.99",
+        "description": "A deep dive into the epistemology of scientific discovery and paradigm shifts."
+    },
+    {
+        "id": "book-6",
+        "doi": "10.1234/ila.2024.6",
+        "title": "Introduction to Linear Algebra",
+        "authors": [
+            { "firstName": "Gilbert", "lastName": "Strang" }
+        ],
+        "isbn": "978-4-55-666777-8",
+        "publishYear": 2024,
+        "publisher": "MathBooks Inc",
+        "coverImageUrl": "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&q=80&w=400",
+        "type": "TEXTBOOK",
+        "discipline": "Mathematics",
+        "price": "$110.00",
+        "description": "A foundational textbook for linear algebra, vectors, and matrices with practical applications."
+    }
+]

@@ -1,0 +1,74 @@
+/* Google Fonts: Plus Jakarta Sans (sans) + Fraunces (serif display) */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+    body {
+        @apply font-sans text-lumex-text antialiased;
+        background: var(--lumex-bg);
+        line-height: 1.6;
+    }
+
+    ::selection {
+        background: var(--lumex-accent-soft);
+    }
+
+    h1,
+    .h1 {
+        @apply font-serif font-semibold text-4xl leading-tight text-lumex-text mb-4;
+        letter-spacing: -0.025em;
+    }
+
+    h2,
+    .h2 {
+        @apply font-serif font-semibold text-3xl leading-snug text-lumex-text mb-3;
+        letter-spacing: -0.02em;
+    }
+
+    h3,
+    .h3 {
+        @apply font-serif font-medium text-xl leading-normal text-lumex-text mb-3;
+    }
+
+    h4,
+    .h4 {
+        @apply font-sans font-semibold text-lg leading-relaxed text-lumex-text mb-2;
+    }
+
+    h5,
+    .h5 {
+        @apply font-sans font-medium text-base leading-relaxed text-lumex-text mb-2;
+    }
+
+    h6,
+    .h6 {
+        @apply font-sans font-semibold text-sm leading-relaxed text-lumex-blue uppercase tracking-wider mb-2;
+        letter-spacing: 0.1em;
+    }
+
+    p {
+        @apply text-base leading-relaxed mb-4;
+    }
+
+    small {
+        @apply text-sm text-lumex-muted;
+    }
+
+    a {
+        color: var(--lumex-accent);
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--lumex-border);
+        border-radius: 3px;
+    }
+}

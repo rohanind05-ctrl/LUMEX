@@ -1,0 +1,78 @@
+:root {
+    /* Lumex Color Tokens — New Palette */
+    --lumex-accent: #3b5bdb;
+    --lumex-accent-dark: #2f4bc7;
+    --lumex-accent-soft: rgba(59, 91, 219, 0.07);
+
+    --lumex-red: #e8181d;
+    --lumex-red-dark: #c0141a;
+    --lumex-oa-gold: #f5a500;
+
+    --lumex-text: #0f1523;
+    --lumex-text-muted: #5a6380;
+    --lumex-text-sub: #8a92aa;
+
+    --lumex-border: #dde1ee;
+    --lumex-border-hover: #b0b8d8;
+
+    --lumex-bg: #f0f2f7;
+    --lumex-bg-deep: #e8eaf2;
+    --lumex-bg-white: #ffffff;
+    --lumex-card: #ffffff;
+    --lumex-card-hover: #f8f9fa;
+
+    /* Form Elements */
+    --input-border: var(--lumex-border);
+    --input-bg: var(--lumex-bg-white);
+    --input-focus-ring: var(--lumex-accent);
+
+    /* Layout Spacing */
+    --container-max-width: 1240px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-dropdown: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-card-hover: 0 6px 28px rgba(59, 91, 219, 0.08), 0 1px 4px rgba(0, 0, 0, 0.05);
+
+    /* Radii */
+    --radius-sm: 0.125rem;
+    --radius-md: 0.25rem;
+    --radius-lg: 0.5rem;
+    --radius-card: 0.6875rem;
+    --radius-full: 9999px;
+}
+
+.dark {
+    /* Dark Theme Palette */
+    --lumex-accent: #5c7cfa;
+    --lumex-accent-dark: #4c6ef5;
+    --lumex-accent-soft: rgba(92, 124, 250, 0.15);
+
+    --lumex-red: #ff6b6b;
+    --lumex-red-dark: #fa5252;
+    --lumex-oa-gold: #ffd43b;
+
+    --lumex-text: #f0f2f7;
+    --lumex-text-muted: #aab2cd;
+    --lumex-text-sub: #7a829a;
+
+    --lumex-border: #2d344d;
+    --lumex-border-hover: #3d4663;
+
+    --lumex-bg: #0b0f1a;
+    --lumex-bg-deep: #05070d;
+    --lumex-bg-white: #111827;
+    /* Dark surface */
+    --lumex-card: #161e2e;
+    --lumex-card-hover: #1e293b;
+
+    /* Form Overrides */
+    --input-bg: #111827;
+
+    /* Shadows Overrides */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    --shadow-dropdown: 0 10px 15px -3px rgba(0, 0, 0, 0.6), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+    --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.5);
+}

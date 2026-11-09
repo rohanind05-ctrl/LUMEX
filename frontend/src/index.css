@@ -1,0 +1,13 @@
+@import './shared/ui/styles/variables.css';
+@import './shared/ui/styles/typography.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-lumex-bg text-lumex-text transition-colors duration-200;
+        min-height: 100vh;
+    }
+}
